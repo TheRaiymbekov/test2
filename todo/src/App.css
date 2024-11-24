@@ -1,0 +1,233 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.todo-app{
+  margin: 50px;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.todo-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  gap: 90px;
+}
+.buttons{
+  display: flex;
+  width: 210px;
+  gap: 10px;
+}
+input {
+  width: 440px;
+  background-color: #000;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 16px;
+  color: white;
+}
+
+.add-task {
+  width: 100px;
+  height: 54px;
+  border-radius: 12px;
+  border: 1px solid rgba(219, 0, 255, 1);
+  padding: 16px;
+}
+.add-task:hover {
+  background: #ff00ff;
+  color: #fff;
+  transition: background 0.5s ease;
+}
+.add-task:active{
+  filter: brightness(0.8);
+  transform: scale(0.98)
+}
+.clear-all {
+  width: 100px;
+  height: 54px;
+  border-radius: 12px;
+  border: 1px solid rgba(219, 0, 255, 1);
+  padding: 16px;
+}
+.clear-all:hover {
+  background: #ff00ff;
+  color: #fff;
+  transition: background 0.5s ease;
+}
+.clear-all:active{
+  filter: brightness(0.8);
+  transform: scale(0.98)
+}
+.task-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  gap: 20px;
+}
+
+.task-actions{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 172px;
+}
+.task-actions span {
+  display: flex;
+  width: 440px;
+  background-color: #000;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 16px;
+  color: white;
+}
+.buttons1{
+  display: flex;
+  gap: 10px;
+}
+
+.edit-task {
+  width: 54px;
+  height: 54px;
+  background-color: #000;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 16px;
+}
+.edit-task:hover {
+  background: #ff00ff;
+  color: #fff;
+  transition: background 0.5s ease;
+}
+.edit-task:active{
+  filter: brightness(0.8);
+  transform: scale(0.98)
+}
+.edit-task img{
+   color: rgba(255, 255, 255, 0.85);
+
+}
+.delete-task {
+  width: 54px;
+  height: 54px;
+  background-color: #000;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 16px;
+}
+.delete-task:hover {
+  filter: brightness(1.2);
+}
+.delete-task:hover {
+  background: #ff00ff;
+  color: #fff;
+  transition: background 0.5s ease;
+}
+.delete-task:active{
+  filter: brightness(0.8);
+  transform: scale(0.98)
+}
+.delete-task img{
+  color: rgba(255, 255, 255, 0.85);
+}
+.task-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  list-style: none;
+}
+.task-item input{
+  width: 440px;
+  background-color: #000;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 16px;
+  color: white;
+}
+.buttons2{
+  display: flex;
+  gap: 10px;
+}
+.save-task {
+  width: 100px;
+  height: 54px;
+  border-radius: 12px;
+  border: 1px solid rgba(219, 0, 255, 1);
+  padding: 16px;
+}
+.save-task:hover {
+  background: #ff00ff;
+  color: #fff;
+  transition: background 0.5s ease;
+}
+.save-task:active{
+  filter: brightness(0.8);
+  transform: scale(0.98)
+}
+.cancel-task {
+  width: 100px;
+  height: 54px;
+  border-radius: 12px;
+  border: 1px solid rgba(219, 0, 255, 1);
+  padding: 16px;
+}
+.cancel-task:hover {
+  background: #ff00ff;
+  color: #fff;
+  transition: background 0.5s ease;
+}
+.cancel-task:active{
+  filter: brightness(0.8);
+  transform: scale(0.98)
+}
